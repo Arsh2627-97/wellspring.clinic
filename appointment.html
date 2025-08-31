@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment - WellSpring Family Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header/Nav same as index.html -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+        <div class="brand-text">
+          <h1>WellSpring Family Clinic</h1>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false"></button>
+        <ul id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="bmi.html">BMI Calculator</a></li>
+          <li><a class="active" href="appointment.html">Appointment</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container section">
+    <h2 class="section-title">Request an Appointment</h2>
+    
+    <!-- Friendly message -->
+  <p class="appointment-message">
+    We are here to care for you! Please fill out the form below to request an appointment. Make sure to provide a valid email or phone number so we can confirm your booking.
+  </p>
+
+    <form class="appointment-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="Your Phone" required>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" required>
+      <label for="Reason for appointment">Reason for appointment</label>
+      <input type="Reason for appointment" id="Reason" required>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 WellSpring Family Clinic</p>
+    </div>
+  </footer>
+</body>
+</html>
